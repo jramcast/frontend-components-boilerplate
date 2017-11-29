@@ -52,7 +52,6 @@ module.exports = {
             // Transpile ES2015 to ES5
             {
                 test: /\.js$/,
-                exclude: /(node_modules|bower_components)/,
                 use: {
                     loader: 'babel-loader',
                     options: {

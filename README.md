@@ -14,6 +14,14 @@ WORK IN PROGRESS
 
 ## Usage
 
+### Multimanagement of packages
+
+This project uses lerna to manage multiple components at once. 
+
+Please refer to lerna docs for instructions (https://github.com/lerna/lerna)
+
+### Common commans
+
 Install dependencies:
 ```
 npm install

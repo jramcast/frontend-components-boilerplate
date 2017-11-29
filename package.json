@@ -30,6 +30,7 @@
   },
   "homepage": "https://github.com/jramcast/frontend-components-boilerplate#readme",
   "dependencies": {
+    "@jramcast/my-component": "^1.0.3",
     "express": "^4.16.2",
     "pug": "^2.0.0-rc.4"
   },

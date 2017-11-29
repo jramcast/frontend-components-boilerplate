@@ -1,3 +1,3 @@
-import myComponent from '../../../components/my-component/';
+import myComponent from '@jramcast/my-component';
 
 //myComponent.init();
