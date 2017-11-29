@@ -1,6 +1,6 @@
 {
   "name": "my-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Example component",
   "main": "index.js",
   "directories": {
