@@ -101,5 +101,3 @@ module.exports = {
     plugins,
     devtool: environment === 'production' ? 'source-map' : 'cheap-module-eval-source-map'
 };
-
-

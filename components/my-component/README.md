@@ -2,4 +2,4 @@
 
 TODO
 
-Dummy component
+Dummy component to support https://github.com/jramcast/frontend-components-boilerplate

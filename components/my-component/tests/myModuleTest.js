@@ -41,5 +41,3 @@ function cleanBrowser() {
     delete global.window;
     delete global.document;
 }
-
-
