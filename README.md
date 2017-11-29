@@ -1,5 +1,9 @@
 # frontend-components-boilerplate
+
+
 A boilerplate for proyects based on components, using webpack, es6, sass and pug.
+
+[![Build Status](https://travis-ci.org/jramcast/frontend-components-boilerplate.svg?branch=master)](https://travis-ci.org/jramcast/frontend-components-boilerplate)
 
 WORK IN PROGRESS
 
