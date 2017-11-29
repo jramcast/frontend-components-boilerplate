@@ -16,7 +16,7 @@ WORK IN PROGRESS
 
 ### Multimanagement of packages
 
-This project uses lerna to manage multiple components at once. 
+This project uses lerna to manage multiple components at once.
 
 Please refer to lerna docs for instructions (https://github.com/lerna/lerna)
 
