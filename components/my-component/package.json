@@ -1,6 +1,6 @@
 {
-  "name": "my-component",
-  "version": "1.0.2",
+  "name": "@jramcast/my-component",
+  "version": "1.0.3",
   "description": "Example component",
   "main": "index.js",
   "directories": {
@@ -9,6 +9,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Jaime Ramírez <jaime.ram@gmail.com>",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  }
 }
