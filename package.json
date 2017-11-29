@@ -1,0 +1,58 @@
+{
+  "name": "frontend-components-boilerplate",
+  "version": "0.0.1",
+  "description": "A boilerplate for component-based proyects using webpack, es6, sass and pug",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently --kill-others \"nodemon app/server\" \"npm run build:dev\"",
+    "build:prod": "cross-env BUILD_ENV=production webpack --progress --colors",
+    "build:dev": "webpack --watch --progress --colors",
+    "test:watch": "mocha app/tests components/**/tests -r scripts/tests/registerBabel.js --watch --recursive --growl",
+    "test": "istanbul cover --report text --report lcov _mocha -- app/tests components/**/tests -r scripts/tests/registerBabel.js  --recursive --growl",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jramcast/frontend-components-boilerplate.git"
+  },
+  "keywords": [
+    "webpack",
+    "components",
+    "es6",
+    "sass",
+    "express",
+    "pug"
+  ],
+  "author": "jaime.ram@gmail.com",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jramcast/frontend-components-boilerplate/issues"
+  },
+  "homepage": "https://github.com/jramcast/frontend-components-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "chai": "^4.1.2",
+    "concurrently": "^3.5.1",
+    "cross-env": "^5.1.1",
+    "css-loader": "^0.28.7",
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "istanbul": "^0.4.5",
+    "lerna": "^2.5.1",
+    "mocha": "^4.0.1",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.12.1",
+    "sass-loader": "^6.0.6",
+    "sinon": "^4.1.2",
+    "style-loader": "^0.19.0",
+    "webpack": "^3.8.1"
+  }
+}
